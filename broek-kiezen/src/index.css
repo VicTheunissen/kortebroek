@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+ body  {
+  background-color: rgba(214,229,241,255);
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 400px;
+  height: 30%;
+  position: relative;
+  top: 100px;
+}
+h1  {
+  font-size: 60px;
+  position: relative;
+  top: 50px;
+}
+p{
+  font-size: 30px;
+}
+.date{
+  position: relative;
+  right: 600px;
+  top: 400px;
+}
+.temperatuur{
+  position: relative;
+  top: 470px;
+  left: 500px;
+}
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 12px;
+  }
+  img{
+    width: 300px;
+    height: 30%;
+    position: relative;
+    top:50px;
+  }
+  .date{
+    position: relative;
+    left: 0;
+    top: 550px;
+  }
+  .temperatuur{
+    position: relative;
+    top: 550px;
+    left: 0px;
+  }
+}
